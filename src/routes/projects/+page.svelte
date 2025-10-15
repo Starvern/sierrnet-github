@@ -18,6 +18,18 @@
 
 <DisplayBlock>
     <BlockTitle>
+        <a href="https://github.com/Starvern/hack-midwest-2025" class='text-sky-200 underline'>
+            RepEngine - hack-midwest-2025
+        </a>
+    </BlockTitle>
+    <BlockText>
+        My entry for HackMidest 2025. Using MongoDB & Sveltekit to create a workout app which uses MongoDB's vector search
+        to suggest workouts based on user data.
+    </BlockText>
+</DisplayBlock>
+
+<DisplayBlock>
+    <BlockTitle>
         <a href="https://github.com/Starvern/rust-auth" class='text-sky-200 underline'>
             rust-auth
         </a>
