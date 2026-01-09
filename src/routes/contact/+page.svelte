@@ -1,8 +1,8 @@
 <script>
-    import BlockText from "$lib/BlockText.svelte";
-    import BlockTitle from "$lib/BlockTitle.svelte";
-    import DisplayBlock from "$lib/DisplayBlock.svelte";
-import PageTitle from "$lib/PageTitle.svelte";
+    import BlockText from "$lib/components/BlockText.svelte";
+    import BlockTitle from "$lib/components/BlockTitle.svelte";
+    import DisplayBlock from "$lib/components/DisplayBlock.svelte";
+import PageTitle from "$lib/components/PageTitle.svelte";
 
 </script>
 

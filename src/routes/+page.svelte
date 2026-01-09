@@ -1,7 +1,7 @@
 <script>
     import "../app.css"
-    import knight from '../lib/StarvernKnightPurple.png'
-    import knightgif from '../lib/StarvernKnightGif.gif'
+    import knight from '$lib/assets/StarvernKnightPurple.png'
+    import knightgif from '$lib/assets/StarvernKnightGif.gif'
 </script>
 
 <div class='flex flex-row w-full justify-center md:gap-[0.5rem]'>

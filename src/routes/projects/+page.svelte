@@ -1,8 +1,8 @@
 <script>
-    import BlockText from "$lib/BlockText.svelte";
-    import BlockTitle from "$lib/BlockTitle.svelte";
-    import DisplayBlock from "$lib/DisplayBlock.svelte";
-    import PageTitle from "$lib/PageTitle.svelte";
+    import BlockText from "$lib/components/BlockText.svelte";
+    import BlockTitle from "$lib/components/BlockTitle.svelte";
+    import DisplayBlock from "$lib/components/DisplayBlock.svelte";
+    import PageTitle from "$lib/components/PageTitle.svelte";
 </script>
 
 <PageTitle>Projects</PageTitle>
@@ -26,6 +26,15 @@
         My entry for HackMidest 2025. Using MongoDB & Sveltekit to create a workout app which uses MongoDB's vector search
         to suggest workouts based on user data.
     </BlockText>
+</DisplayBlock>
+
+<DisplayBlock>
+    <BlockTitle>
+        <a href="https://github.com/Starvern/mcp-led-controller" class='text-sky-200 underline'>
+            mcp-led-controller
+        </a>
+    </BlockTitle>
+    <BlockText>A three-part system with an MCP server, WebSocket server, and Arduino WebSocket client. This system can use AI models to toggle an LED on and off.</BlockText>
 </DisplayBlock>
 
 <DisplayBlock>

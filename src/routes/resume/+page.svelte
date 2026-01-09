@@ -1,11 +1,11 @@
 <script>
     import resume from '$lib/Resume.pdf'
     import passport from '$lib/Passport.pdf'
-    import DisplayBlock from '$lib/DisplayBlock.svelte';
-    import ListElement from '$lib/ListElement.svelte';
-    import PageTitle from '$lib/PageTitle.svelte';
-    import BlockSubtitle from '$lib/BlockSubtitle.svelte';
-    import BlockTitle from '$lib/BlockTitle.svelte';
+    import DisplayBlock from '$lib/components/DisplayBlock.svelte';
+    import ListElement from '$lib/components/ListElement.svelte';
+    import PageTitle from '$lib/components/PageTitle.svelte';
+    import BlockSubtitle from '$lib/components/BlockSubtitle.svelte';
+    import BlockTitle from '$lib/components/BlockTitle.svelte';
 </script>
 
 <PageTitle>
