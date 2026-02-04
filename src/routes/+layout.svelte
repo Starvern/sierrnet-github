@@ -15,13 +15,13 @@
 </svelte:head>
 
 <main class='font-regular font-[500] min-h-screen min-w-screen max-h-fit max-w-fit bg-[radial-gradient(circle,#00000025_1px,transparent_1px)]  bg-[size:1.25rem_1.25rem]'>
-	<DisplaySection class='hidden md:block bg-white'>
+	<DisplaySection class='bg-white'>
 		<div class='flex flex-row items-center px-[2rem] py-[1rem] gap-[5rem]'>
-			<p>https://github.sierr.net{page.route.id}</p>
-			<SocialLink link='/' label=home class='ml-auto'>
+			<p class='hidden md:block'>https://github.sierr.net{page.route.id}</p>
+			<SocialLink link='/' label=home class='mx-auto md:mr-0 md:ml-auto'>
 				Home
 			</SocialLink>
-			<SocialLink link='/design' label=design>
+			<SocialLink link='/design' label=design class='mx-auto md:m-0'>
 				Design
 			</SocialLink>
 		</div>

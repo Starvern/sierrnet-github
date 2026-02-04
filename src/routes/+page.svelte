@@ -28,7 +28,7 @@
         <a aria-label=resume
            download
            href={resume}
-           class='border-1 w-fit px-[1rem] py-[0.5rem] rounded-xs hover:bg-black hover:text-white transition duration-200'>
+           class='border-1 w-fit px-[1rem] py-[0.5rem] rounded-xs hover:bg-black hover:text-white transition duration-200 mx-auto mb-[2rem] md:m-0'>
             <i class='fa-solid fa-download'></i>
             Download Resume
         </a>
