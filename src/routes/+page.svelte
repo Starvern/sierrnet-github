@@ -1,6 +1,9 @@
 <script lang="ts">
     import StarvernKnightPurple from "$lib/assets/StarvernKnightPurple.png";
     import mongodb from "$lib/assets/mongodb.svg";
+    import lasermaze from "$lib/assets/lasermaze.jpg";
+    import boost from "$lib/assets/555Boost.jpg";
+    import C from "$lib/assets/C.png";
     import svelte from "$lib/assets/svelte.svg";
     import blockbench from "$lib/assets/blockbench.svg";
     import DisplaySection from '$lib/components/DisplaySection.svelte';
@@ -48,6 +51,8 @@
 <DisplaySection class='p-[2rem] pb-[3rem] flex flex-col gap-[1.5rem]'>
     <T1>Skills</T1>
     <div class='grid grid-rows-2 lg:grid-cols-2 xl:grid-cols-3 gap-[1.5rem] gap-x-[5rem]'>
+        <SkillBadge><img class='w-[1.5rem] inline grayscale' src={C} alt=svelte /> C (3 months)</SkillBadge>
+        <SkillBadge icon='fa-brands fa-git-alt'>Git CLI (6 months)</SkillBadge>
         <SkillBadge icon='fa-brands fa-python'>Python (4 years)</SkillBadge>
         <SkillBadge icon='fa-brands fa-java'>Java (3 years)</SkillBadge>
         <SkillBadge icon='fa-brands fa-js'>JavaScript (2 years)</SkillBadge>
@@ -55,7 +60,6 @@
         <SkillBadge><img class='w-[1.5rem] inline' src={svelte} alt=svelte /> SvelteKit (2 years)</SkillBadge>
         <SkillBadge><img class='w-[1.5rem] inline' src={blockbench} alt=svelte /> Blockbench (2 years)</SkillBadge>
         <SkillBadge icon='fa-brands fa-rust'>Rust (learning)</SkillBadge>
-        <SkillBadge icon='fa-brands fa-git-alt'>Git CLI (learning)</SkillBadge>
     </div>
 </DisplaySection>
 
@@ -92,6 +96,42 @@
     <T1 class='mx-[2rem]'>Projects</T1>
 
     <InlineSection>
+        <T2>555 Timer - Boost Coverter, 3[V] boosted to 9[V]</T2>
+
+        <a href={boost} class='text-center md:text-right'>Click here to see image.</a>
+        <T3 class='text-stone-600'>I created a boost converter using resistors, capacitors, inductors, and a transistor which was toggled by a 555 timer providing a 60% duty cycle to boost 3V to 9V.</T3>
+    
+    </InlineSection>
+
+    <InlineSection>
+        <T2><img class='w-[1.5rem] inline grayscale' src={C} alt=C /> Laser Maze</T2>
+
+        <a href={lasermaze} class='text-center md:text-right'>Click here to see image.</a>
+        <T3 class='text-stone-600'>I created a fully-functional laser maze within my garage using Arduino, lasers, and photoresistors.</T3>
+    
+    </InlineSection>
+
+    <InlineSection>
+        <T2>
+            <img class='w-[1.5rem] inline grayscale' src={C} alt=C />
+            <SocialLink link='https://github.com/Starvern/rf24-drone-project' label=drone>
+                Custom Ground Drone
+            </SocialLink>
+            <T3 class='text-stone-600'>I used Arduino to create a custom ground drone, and a seperate custom radio controller.</T3>
+        </T2>
+    </InlineSection>
+
+    <InlineSection>
+        <T2>
+            <img class='w-[1.5rem] inline grayscale' src={C} alt=C />
+            <SocialLink link='https://github.com/Starvern/dht-esp8266-socketio' label=drone>
+                IoT Smart Home Thermometer
+            </SocialLink>
+            <T3 class='text-stone-600'>I used Arduino and a custom SocketIO server to create a smart-home thermometer which outputs temperature data to the server.</T3>
+        </T2>
+    </InlineSection>
+
+    <InlineSection>
         <T2>
             <i class='fa-brands fa-java'></i>
 
@@ -120,6 +160,7 @@
         <T2>
             <i class='fa-brands fa-python'></i>
             <i class='fa-brands fa-rust'></i>
+            <img class='w-[1.5rem] inline grayscale' src={C} alt=C />
             <SocialLink link='https://github.com/Starvern/mcp-led-controller' label='mcp-led-controller' icon=''>
                 mcp-led-controller
             </SocialLink>
