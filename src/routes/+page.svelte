@@ -207,7 +207,7 @@
 
     <InlineSection>
         <T2>Warrensburg High School</T2>
-        <T3 class='text-stone-600'>Class of 2024, 2.84 / 4.19 GPA</T3>
+        <T3 class='text-stone-600'>Class of 2024, 3.84 / 4.19 GPA</T3>
     </InlineSection>
 </DisplaySection>
 
