@@ -2,4 +2,4 @@
 
 Thank you for viewing my profile!
 
-Link: https://github.sierr.net/
+Link: https://sierr.net/
